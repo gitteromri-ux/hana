@@ -58,14 +58,13 @@ export default function App() {
           <p className="lead">
             Olga is a complete, best-practice Enneagram inventory. Answer 108 statements
             honestly and you'll receive a full analysis of your dominant type (1–9), your
-            wing, your core motivations and fears, your growth and stress directions — plus a
-            detailed report on how your type pairs with a Type 4, the Individualist.
+            wing, your core motivations and fears, and your growth and stress directions.
           </p>
           <div className="intro-grid">
+            <div className="card"><span>108</span>total questions</div>
             <div className="card"><span>12</span>items per type</div>
             <div className="card"><span>9</span>types analyzed</div>
             <div className="card"><span>18</span>wing profiles</div>
-            <div className="card"><span>Type 4</span>compatibility report</div>
           </div>
           <button className="cta" onClick={() => setStage("test")}>Begin the assessment →</button>
           <p className="fineprint">Takes about 15 minutes. Rate each statement by how true it is of you.</p>
